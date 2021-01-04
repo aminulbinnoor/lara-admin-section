@@ -56,7 +56,7 @@ class ProfileController extends Controller
             $tmp = explode('.', $file->getClientOriginalName());//get client file name
             $name = $file->getClientOriginalName();
             $newImageName = round(microtime(true)).'.'.end($tmp);
-            $file->move(storage_path('app\public\profile-pic'), $newImageName);
+            $file->move(public_path('uploads'), $newImageName);
         }
         $user = User::find(Auth::user()->id);
         $newImage = null;

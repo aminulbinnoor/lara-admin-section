@@ -18,7 +18,7 @@
               <div class="card-body">
                 <div class="author">
                   <a href="#">
-                  <img src="{{url('storage/profile-pic')}}/{{Auth::user()->avatar}}" alt="{{Auth::user()->name}}" class="avatar border-gray"/>
+                  <img src="{{url('uploads')}}/{{Auth::user()->avatar}}" alt="{{Auth::user()->name}}" class="avatar border-gray"/>
                     <!-- <img class="avatar border-gray" src="../assets/img/mike.jpg" alt="..."> -->
                     <h5 class="title">{{ Auth::user()->name }}</h5>
                   </a>

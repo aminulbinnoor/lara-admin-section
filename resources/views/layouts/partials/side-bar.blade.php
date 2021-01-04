@@ -1,16 +1,15 @@
-<div class="sidebar" data-color="white" data-active-color="danger">
+<div class="sidebar" data-color="green" data-active-color="danger">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
     -->
       <div class="logo">
         <a href="#" class="simple-text logo-mini">
           <div class="logo-image-small">
-          <img src="{{url('storage/profile-pic')}}/{{Auth::user()->avatar}}" alt="{{Auth::user()->name}}"/>
+          <img class="rounded-circle" src="{{url('uploads')}}/{{Auth::user()->avatar}}" alt="{{Auth::user()->name}}"/>
           </div>
         </a>
         <a href="#" class="simple-text logo-normal">
-          {{ Auth::user()->name }}<br>
-          {{Auth::user()->email}}
+          {{ Auth::user()->name }}
           <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">
           </div> -->
