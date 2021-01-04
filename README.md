@@ -1,4 +1,4 @@
-# Laravel7.x-Roles-Permissions-Admin-Paper-Dashboard-bootstrap4
+# Laravel7 Roles-Permissions-Admin-section
 This is a Laravel 7.X admin panel starter project with roles-permissions management based on Spatie Laravel-permission package, Paper Dashboard Design theme and also has jquery, bootstrap 4.X, Bootstrap Data-tables.
 
 # Installation
@@ -8,7 +8,7 @@ Laravel 7.x version admin roles and permission project to use as a starter proje
 * Copy .env.example file to .env and edit database credentials there
 * Run composer install
 * Run php artisan migrate --seed (it has some seeded data - see below)
-* Run php artisan serve (Laravel development server started: http://127.0.0.1:8000) 
+* Run php artisan serve (Laravel development server started: http://127.0.0.1:8000)
 * That's it: launch the main URL and login with default credentials admin@admin.com - password
 
 # Dashboard with Dynamic Visitor Count and User Login Activity
